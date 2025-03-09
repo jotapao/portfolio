@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#16181D ;
+    
+}
+
+
+
+
+
+    
+
+
+
+.grid{
+    display: grid;
+}
+
+
+
+
+
+span{
+    color: #E3646E;
+     font-family: Inconsolata ;
+}
+
+header{
+    
+   text-align: center;
+   margin-block:80px;
+   align-items: center;
+
+   
+   
+   
+}
+
+h1{
+
+    color: #E2E4E9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-block: 20px;
+    size: 56px;
+    line-height: 120%;
+    
+    
+}
+
+sub {
+    font-family: Inconsolata;
+    color: #C0C4CE;
+    size: 16px ;
+    
+    
+    
+    
+}
+
+.profile {
+    margin-block:56px;
+}
+
+
+
+small{
+    color: #878EA1;
+    font-family: maven pro;
+    
+    
+    
+    
+    
+    
+    
+   
+   
+}
+
+
+
+
+.grid-flow-col{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+    
+   
+    
+    
+    
+}
+
+
+
+
+.content-tag {
+    display: inline-block;
+    background-color: #292C34;;
+    padding: px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #C0C4CE;
+    
+}
+
+#intro {
+    align-items: center;
+    max-width: 1366px;
+    height: 750px;
+   
+   
+ 
+    
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 114px ;
+    height: 40px;
+    gap: .5rem;
+    background-color: #292C34;
+    border: 1px;
+    border-radius: 100px;
+   
+    
+
+
+
+
+
+                  strong {
+                    color: #C0C4CE;
+                    font: var(--font-family);
+                    
+                  }
+
+                  
+}
+
+.rool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-block:97px;
+}
