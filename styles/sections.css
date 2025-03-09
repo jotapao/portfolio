@@ -1,14 +1,13 @@
 #intro {
-  background-image: url(/assets/Background_Intro.png); 
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: auto;
-   display: grid;
-   align-items: center;
-   justify-content: center;
-   margin-inline: auto;
-   height: 100%;
-   padding-top: 7.5rem;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-inline: auto;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.5rem;
 
    header {
     display: grid;
@@ -64,6 +63,7 @@
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+    margin-top: 5rem ;
 
     
      }
@@ -98,6 +98,94 @@
             scale: 1.1;
         }
         }
+
+        #set {
+            margin-inline: auto;
+            margin-top: 5.875rem;
+            
+        }
+
+    #projects { 
+        background-color: var(--gray-200);
+
+        header {
+            padding-block: 4.75rem 3.5rem;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            
+            
+
+
+            
+        }
+
+         } 
+
+         #six-prj {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            max-width: 65rem;
+            margin-inline: auto;
+            padding-bottom: 9rem;
+
+
+         }
+
+         .card-div {
+            
+            
+            background-color: var(--gray-300);
+            border-radius: 8px;
+            max-width: 330px;
+            max-height: 280px;
+            cursor: pointer;
+            transition: all 600ms ease;
+            margin-top: 56px;
+
+            img {
+                border-radius: 8px;
+                object-fit: cover;
+                width: 306px;
+                height: 156px;
+                margin: 12px;
+
+                &:hover {
+                    outline: 1.5px solid var(--gray-400);
+                    scale: 1.05;
+                }
+            }
+
+
+            
+
+            h3 {
+                color: var(--gray-600);
+                font: var(--title-sm);
+                margin: 4px;
+            }
+
+            p {
+                color: var(--gray-500);
+                font: var(--text-sm);
+                margin: 4px;
+            }
+         }
+
+         .handp {
+            margin-inline: 12px;
+            margin-bottom: 17px;
+
+            
+           
+
+            
+            
+            }
 
         
 
