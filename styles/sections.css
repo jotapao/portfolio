@@ -147,6 +147,11 @@
             transition: all 600ms ease;
             margin-top: 56px;
 
+            &:hover {
+                outline: 1.5px solid var(--gray-400);
+                scale: 1.05;
+            }
+
             img {
                 border-radius: 8px;
                 object-fit: cover;
@@ -154,10 +159,7 @@
                 height: 156px;
                 margin: 12px;
 
-                &:hover {
-                    outline: 1.5px solid var(--gray-400);
-                    scale: 1.05;
-                }
+               
             }
 
 
@@ -187,8 +189,69 @@
             
             }
 
+            .serviços {
+                background-color: var(--gray-100) ;
+
+                header {
+                    margin-bottom: 3.5rem ;
+                }
+            }
+
+            #especify {
+                display: flex;
+                flex-wrap: wrap;
+                padding-block: 3.5rem 7.5rem ;
+                align-items: center;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+
+
+
+                 img {
+                    margin-top: 1.25rem;
+                    margin-left: 1.25rem;
+                }
+
+                
+                
+
+                .card-work {
+                    border: solid 2px var(--gray-200);
+                    border-radius: 0.75rem;
+
+                    
+                    &:hover {
+                        outline: 1.5px solid var(--gray-400);
+                        scale: 1.05;
+                    }
+                    
+                    div {
+                        margin: 1.25rem;
+
+                     
+
+                    
+                   
+
+                     
+
+                    h3 {
+                        color: var(--gray-600);
+                        font: var(--title-sm);
+                        margin-bottom: .5rem;
+                        
+                    }
+
+                    p {
+                        color: var(--gray-500);
+                        font: var(--text-sm);
+                        
+
+                }   } }
+
+
+            
+
         
 
-
-    
-  
