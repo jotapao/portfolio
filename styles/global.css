@@ -63,6 +63,7 @@ justify-content: center;
     color: var(--gray-600);
     font: var(--title-md);
     text-align: center;
+    margin: .5rem;
     }
 
     a {

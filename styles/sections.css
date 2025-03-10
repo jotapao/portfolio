@@ -73,6 +73,7 @@
         
         display: flex;
         align-items: center;
+        
         gap: .5rem; 
         background-color: var(--gray-300);
 
@@ -204,7 +205,7 @@
                 align-items: center;
                 justify-content: center;
                 gap: 1.5rem;
-            }
+           
 
 
 
@@ -248,7 +249,115 @@
                         font: var(--text-sm);
                         
 
-                }   } }
+                }   } }  }
+
+                #contatos {
+                    background-image: url(/assets/images/Background_Contacts.png);
+                    background-size: cover;
+                    margin-inline: auto;
+                    background-repeat: no-repeat;
+                    
+                    
+                    
+                    header {
+                        padding-top: 8rem;
+                        margin-bottom: 3rem;
+                        display: grid;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                        
+
+                    h2 {
+                        color: var(--purple-color);
+                        font: var(--sub-title);
+                        text-align: center;
+                        
+                    }
+
+                    h3 {
+                        padding: .75rem;
+                        font: var(--text-md);
+                        color: var(--gray-500);
+                        text-align: center;
+                    }
+
+                
+                        
+                }
+
+                 #links {
+
+                    display: grid;
+                     align-items: center;
+                     padding-bottom: 12.5rem;
+                     gap: 1rem;
+                     justify-content: center;
+                     margin-inline: auto;
+
+                     & .card-cnt {
+                        gap: .5rem; 
+
+                     background-color:  var(--gray-300);
+                     border-radius: .5rem;
+                     display: flex;
+                     align-items: center;
+                     justify-content: space-between;
+                     width: 25rem;
+                     transition: all 600ms ease;
+                     cursor: pointer;
+
+                     
+                      
+                     & svg path {
+                        transition: fill 600ms ease;
+                        }
+                        
+                        &:hover {
+                            outline: 1.5px solid var(--blue-color);
+                        
+                            & svg path {
+                                fill: var(--blue-color);
+                            }
+                        }
+                    }
+                        
+                        div {
+                            display: flex;
+                            align-items: center;
+                            
+                            
+                            
+                        
+                        
+                        svg {
+                            margin-block: 1.25rem;
+                            margin-left: 1.25rem;
+                            
+                        }
+                        
+                        span {
+                        color: var(--gray-500);
+                        font: var(--text-md);
+                        height: auto;
+                        width: 288px;
+                        }
+                        
+                        a {
+                            margin-block: 1.5rem;
+                            margin-right: 1.25rem;
+                            
+                        }
+                    }
+                }
+
+                        
+                        
+                    
+                    
+                    
+                    
+
 
 
             
